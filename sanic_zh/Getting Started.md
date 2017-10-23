@@ -1,3 +1,4 @@
+#写在开始
 Sanic是一个和Flask有些类似的框架，作者写这个框架的目的，也是想结合Python3.5之后新出的Asyncio异步库来使Web服务器性能更加强大。它是基于惊人的底层magicstack所做的工作，也是受于这篇文章的启发，也就是[UVLoop](https://magic.io/blog/uvloop-blazing-fast-python-networking/)一种新的事件循环机制。
 
 除了和Flask的语法比较相像之外，Sanic还支持异步的请求处理机制，也就是意味着你可以使用Python3.5之后最新、最炫酷的async/await语法，让你的代码享受无阻塞的强烈快感。
