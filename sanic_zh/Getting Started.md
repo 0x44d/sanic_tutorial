@@ -33,86 +33,87 @@ if __name__ == "__main__":
 
 指导
 ====
-* Getting Started
-* RoutingRequest parameters
-  * HTTP request types
-  * Theadd_route
-  * method
-  * URL building withurl_for
-  * WebSocket routes
+>下面本来没想翻译，因为是作者原本的API想法，感觉翻译了对大家也没什么帮助，但是为了“中国人”更好的有`读`的冲动，我也尝试着翻译下
 
-* Request Data
-Accessing values using `get` and `getlist`
+* Getting Started（开始）
+* RoutingRequest parameters （路由系统）
+  * `HTTP` request types（http请求类型）
+  * The `add_route` method（装饰器app.route调用的方法）
+  * URL building with `url_for`（url构建的方法）
+  * WebSocket routes （wb式的url参数）
 
-* Response
-  * Plain Text
-  * HTML
-  * JSON
-  * File
-  * Streaming
-  * File Streaming
-  * Redirect
-  * Raw
-  * Modify headers or status
+* Request Data （请求数据） 
+    * Accessing values using `get` and `getlist`（两个api请求方法）
 
-* Static Files
-* Exceptions
-  * Throwing an exception
-  * Handling exceptions
-  * Useful exceptions
+* Response （响应类型）
+  * Plain Text（简称text,就是普通文本）
+  * HTML（不用多说了把）
+  * JSON（更熟悉了）
+  * File（类似获取文件）
+  * Streaming（获取流数据，当数据量比较大时很好用）
+  * File Streaming（文件流，比如调用方法下载表格文件）
+  * Redirect（定向重导）
+  * Raw（行）
+  * Modify headers or status（自定义http头部和状态）
 
-* Middleware And Listeners
-  * Middleware
-  * Modifying the request or response
-  * Responding early
-  * Listeners
+* Static Files（静态文件，感觉应该是模板之类）
+* Exceptions（错误处理）
+  * Throwing an exception（自定义抛出错误）
+  * Handling exceptions（内部解决错误）
+  * Useful exceptions（常用错误）
 
-* Blueprints
+* Middleware And Listeners（中间件和监听器）
+  * Middleware（中间件）
+  * Modifying the request or response（修改器，还不知道是什么）
+  * Responding early（还不懂）
+  * Listeners（监听器）
+
+* Blueprints（很熟悉的蓝图，类似flask）
   * My First Blueprint
-  * Registering blueprints
-  * Using blueprints
-  * Start and stop
-  * Use-case: API versioning
-  * URL Building withurl_for
+  * Registering blueprints(建好蓝图之后还得注册蓝图)
+  * Using blueprints（如何使用蓝图）
+  * Start and stop（蓝图的开关）
+  * Use-case: API versioning（API模式，也是flask常见的用法，模块隔离）
+  * URL Building with `url_for`（实战咯）
 
-* Configuration
-  * Basics
-  * Loading Configuration
-  * Builtin Configuration Values
+* Configuration（配置文件）
+  * Basics（基本）
+  * Loading Configuration（如何加载）
+  * Builtin Configuration Values（内建的配置值）
 
-* Cookies
-  * Reading cookies
-  * Writing cookies
-  * Deleting cookies
+* Cookies（大家都不陌生吧）
+  * Reading cookies（读取）
+  * Writing cookies（写入）
+  * Deleting cookies（删除）（很全）
 
-* Handler Decorators
-  * Authorization Decorator
+* Handler Decorators（处理装饰器）
+  * Authorization Decorator（验证装饰器）
 
-* Streaming
-  * Request Streaming
-  * Response Streaming
+* Streaming（流）
+  * Request Streaming（请求流）
+  * Response Streaming（响应流）
 
-* Class-Based Views
-  * Defining views
-  * URL parameters
-  * Decorators
+* Class-Based Views（类模板，不知道大家在flask有没有用过）
+  * Defining views(定义一个)
+  * URL parameters（url参数化）
+  * Decorators（装饰器）
   * Using CompositionView
 
-* Custom Protocols
+* Custom Protocols(自定义协议)
   * Example
 
-* SSL Example
-* LoggingQuick 
+* SSL Example（ssl实例）
+* LoggingQuick （日志快速配置）
   * Start
   * Configuration
 
 * Testing
-* pytest-sanic
-* Deploying
-  * Workers
-  * Running via command
-  * Running via Gunicorn
-  * Asynchronous support
+* pytest-sanic（pytest的sanic版本）
+* Deploying（部署方法）
+  * Workers（相当于开几个进程）
+  * Running via command(命令行启动)
+  * Running via Gunicorn（gunicorn启动）
+  * Asynchronous support（异步支持）
 
 * Extensions
 * Contributing
@@ -122,6 +123,7 @@ Accessing values using `get` and `getlist`
   * Documentation
   * Warning
 
+以下就是所有api的模板参考，模块不是很多，但是性能却极强，厉害！
 * API Reference
   * Submodules
   * sanic.app module
