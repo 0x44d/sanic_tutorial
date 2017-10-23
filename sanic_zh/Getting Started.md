@@ -1,4 +1,5 @@
-#写在开始:smile:
+写在开始:smile:
+=====
 
 Sanic是一个和Flask有些类似的框架，作者写这个框架的目的，也是想结合Python3.5之后新出的Asyncio异步库来使Web服务器性能更加强大。它是基于惊人的底层magicstack所做的工作，也是受于这篇文章的启发，也就是[UVLoop](https://magic.io/blog/uvloop-blazing-fast-python-networking/)一种新的事件循环机制。
 
@@ -6,7 +7,8 @@ Sanic是一个和Flask有些类似的框架，作者写这个框架的目的，�
 
 Sanic在[GitHub](https://github.com/channelcat/sanic/)上开发的。欢迎大家踊跃投稿！
 
-#Sanic立志简洁地处理问题
+Sanic立志简洁地处理问题
+====
 ```
 from sanic import Sanic
 #引入框架
@@ -25,10 +27,12 @@ if __name__ == "__main__":
   #最后的启动一样像
 ```
 
-##启动
+启动
+====
+![系统界面展示](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_img/2017-10-24-052444_1021x989_scrot.png)
 
-
-##指导
+指导
+====
 * Getting Started
 * RoutingRequest parameters
   * HTTP request types
