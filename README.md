@@ -2,6 +2,8 @@
 This is teaching the new framework--sanic, including the Chinese translation, and practical exercises（这是新版框架--sanic的教学，包含中文翻译以及实战练习）:smile:
 并且会写些相关的项目测试框架的性能
 下面模块都会涉及到的哦
+![开工！！！！](https://.com/PythonScientists/sanic_tutorial/blob/master/sanic_img/2017-10-24-052444_1021x989_scrot.png)
+
   * Plain Text（简称text,就是普通文本）
   * HTML（不用多说了把）
   * JSON（更熟悉了）
