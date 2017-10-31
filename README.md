@@ -4,6 +4,8 @@ This is teaching the new framework--sanic, including the Chinese translation, an
 下面模块都会涉及到的哦
 ![开工！！！！](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_img/2017-10-24-052444_1021x989_scrot.png)
 
+首先翻译的是官方文档部分，这部分在readthcodes里面，主要在这里。
+
   * Plain Text（简称text,就是普通文本）
   * HTML（不用多说了把）
   * JSON（更熟悉了）
