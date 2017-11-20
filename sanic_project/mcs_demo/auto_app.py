@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 #-*-coding:utf-8-*-
-# __datetime__
-# __purpose__
+# __all__=""
+# __datetime__="2017.11.20"
+# __purpose__="运行app"
 
 """run this project"""
 from mcs import app

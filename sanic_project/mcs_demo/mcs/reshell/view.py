@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 #-*-coding:utf-8-*-
-# __datetime__
-# __purpose__
+# __all__=""
+# __datetime__="2017.11.20"
+# __purpose__="reshell蓝图模块"
 
 from sanic.response import json,text
 from sanic import Blueprint
+import re
 import paramiko
 from ..SharedPool import Host_Set
+from ..ErrorSet import CommandError
 
 reshell = Blueprint("rs",url_prefix="/rs")
 
@@ -30,14 +33,27 @@ class PSsh:
         return s
 
     def __call__(self,command):
-        s = self.r_ssh()
-        stdin, stdout, stderr = s.exec_command(command)
-        r = stdout
+        if not command.isdigit():
+            s = self.r_ssh()
+            stdin, stdout, stderr = s.exec_command(command)
+            r = stdout
+        else:
+            raise CommandError(command)
         return r.read().decode("utf-8")
 
-
-@reshell.route("/")
-async def remote_shell(request):
+#本机执行远程命令
+@reshell.route("/",methods=["GET"])
+@reshell.route("/<command:string>",methods=["GET"])
+async def remote_shell(request,command=None):
     r = PSsh()
-    result = r("hostname")
-    return json({"主机信息":result})
+    if not command:
+        result = r("hostname")
+    elif isinstance(command,str):
+        try:
+            result = r(command)
+        except CommandError as e:
+            result = repr(e)
+    else:
+        pass
+    return json({"result":result})
+
