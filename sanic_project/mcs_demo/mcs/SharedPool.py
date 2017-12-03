@@ -15,6 +15,12 @@ class Host_Set:
                 "hostname":"43.254.1.204",
                 "port":22,
                 "key":"/root/Downloads/KeyPair-85b5.pem"
-                    }
+                    },
+            # "host2": {
+            #     "username": "root",
+            #     "hostname": "117.78.31.192",
+            #     "port": 22,
+            #     "key": "/root/Downloads/KeyPair-85b5.pem"
+            # }
         }
         return hl_cfg

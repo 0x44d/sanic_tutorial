@@ -57,3 +57,7 @@ async def remote_shell(request,command=None):
         pass
     return json({"result":result})
 
+#
+# @reshell.route("/log")
+# async def log_handle(request):
+#     r = PSsh()
