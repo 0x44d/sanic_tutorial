@@ -17,18 +17,18 @@ This is teaching the new framework--sanic, including the Chinese translation, an
   * Modify headers or status（自定义http头部和状态）
 
 * Static Files（静态文件，感觉应该是模板之类）
-* Exceptions（错误处理）
+* [Exceptions](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/Exceptions.md)（错误处理）
   * Throwing an exception（自定义抛出错误）
   * Handling exceptions（内部解决错误）
   * Useful exceptions（常用错误）
 
-* Middleware And Listeners（中间件和监听器）
+* [Middleware And Listeners](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/Middleware And Listeners.md)（中间件和监听器）
   * Middleware（中间件）
   * Modifying the request or response（修改器，还不知道是什么）
   * Responding early（还不懂）
   * Listeners（监听器）
 
-* Blueprints（很熟悉的蓝图，类似flask）
+* [Blueprints](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/Blueprints.md)（很熟悉的蓝图，类似flask）
   * My First Blueprint
   * Registering blueprints(建好蓝图之后还得注册蓝图)
   * Using blueprints（如何使用蓝图）
@@ -36,12 +36,12 @@ This is teaching the new framework--sanic, including the Chinese translation, an
   * Use-case: API versioning（API模式，也是flask常见的用法，模块隔离）
   * URL Building with `url_for`（实战咯）
 
-* Configuration（配置文件）
+* [Configuration](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/Configuration.md)（配置文件）
   * Basics（基本）
   * Loading Configuration（如何加载）
   * Builtin Configuration Values（内建的配置值）
 
-* Cookies（大家都不陌生吧）
+* [Cookies](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/Cookies.md)（大家都不陌生吧）
   * Reading cookies（读取）
   * Writing cookies（写入）
   * Deleting cookies（删除）（很全）
@@ -53,13 +53,13 @@ This is teaching the new framework--sanic, including the Chinese translation, an
   * Request Streaming（请求流）
   * Response Streaming（响应流）
 
-* Class-Based Views（类模板，不知道大家在flask有没有用过）
+* [Class-Based Views](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/Class-Based Views.md)（类模板，不知道大家在flask有没有用过）
   * Defining views(定义一个)
   * URL parameters（url参数化）
   * Decorators（装饰器）
   * Using CompositionView
 
-* Custom Protocols(自定义协议)
+* [Custom Protocols](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/Custom Protocols.md)(自定义协议)
   * Example
 
 * SSL Example（ssl实例）
@@ -69,7 +69,7 @@ This is teaching the new framework--sanic, including the Chinese translation, an
 
 * Testing
 * pytest-sanic（pytest的sanic版本）
-* Deploying（部署方法）
+* [Deploying](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/Deploying.md)（部署方法）
   * Workers（相当于开几个进程）
   * Running via command(命令行启动)
   * Running via Gunicorn（gunicorn启动）
@@ -84,7 +84,7 @@ This is teaching the new framework--sanic, including the Chinese translation, an
   * Warning
 
 以下就是所有api的模板参考，模块不是很多，但是性能却极强，厉害！
-* API Reference
+* [API Reference](https://github.com/PythonScientists/sanic_tutorial/blob/master/sanic_zh/API.md)
   * Submodules
   * sanic.app module
   * sanic.blueprints module
