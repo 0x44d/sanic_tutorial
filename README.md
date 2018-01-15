@@ -6,6 +6,8 @@ This is teaching the new framework--sanic, including the Chinese translation, an
 
 首先翻译的是官方文档部分，这部分在readthcodes里面，主要在这里。
 
+还会增加实战项目
+
   * Plain Text（简称text,就是普通文本）
   * HTML（不用多说了把）
   * JSON（更熟悉了）
