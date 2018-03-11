@@ -4,7 +4,7 @@ This is teaching the new framework--sanic, including the Chinese translation, an
 # 近期新增项目：
 
 ```
-新增github泄漏监控项目！！！
+新增github泄漏监控项目！！！！
 ```
 `
 
